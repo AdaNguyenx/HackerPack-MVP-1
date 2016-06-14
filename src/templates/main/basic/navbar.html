@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand">
+            <a href="{% url 'index' %}" class="navbar-brand">
                 <span class="hred">Hacker</span>
                 <span class="hgreen">Pack</span>
             </a>
@@ -19,7 +19,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="{% url 'company' %}">Company</a>
                 </li>
                 <li>
                     <a href="onboarding.html">How It Works</a>
