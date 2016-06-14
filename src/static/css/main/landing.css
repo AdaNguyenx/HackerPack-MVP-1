@@ -1,0 +1,581 @@
+/* HackerPack color*/
+.hred {
+    color: #C21C31;
+    font-family: "Avenir Next" !important;
+    font-weight: bold;
+}
+
+.hgreen {
+    color: #589E07;
+    font-family: "Avenir Next" !important;
+    font-weight: bold;
+}
+
+/* Landing page with logo */
+.logo {
+    margin-top: 30px;
+    color: white;
+}
+
+.imgTame {
+    position: relative;
+    z-index: 9;
+}
+
+.container-table {
+    display: table;
+    height: 100%;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scene {
+    padding: 0;
+    margin: 0;
+}
+
+img.logos {
+    position: relative;
+    height: auto;
+    width: auto;
+
+    max-width: 50%;
+    max-height: 50%;
+}
+
+header {
+    /*float:left;*/
+    width: 100%;
+    /*padding:2em 4em;*/
+    color: #fff;
+    height: calc(100% - 3em);
+    /*background-image: url("images/background2.jpg");*/
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h3 {
+    margin: 0;
+    color: #56dcee;
+}
+
+header a {
+    color: #56dcee;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #333;
+    opacity: 1;
+}
+
+.btn-font {
+    margin: 2px;
+    font-size: 3vmin;
+    font-family: "Avenir Next";
+    background: #589E07 !important;
+    border-color: #589E07 !important;
+}
+
+.img-circle {
+    width: 50%;
+}
+
+.crop11 {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+}
+
+#content {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#logo {
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vmin;
+    max-height: 50vmin;
+}
+
+#logoParagraph {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+#register {
+    padding-top: 35px;
+}
+
+input {
+    width: 100%;
+    border: solid white;
+    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+    0 0 16px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+    0 0 16px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+    0 0 16px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 0 10px 0;
+    font-family: "Avenir Next";
+}
+
+#whatYouWillGet {
+    margin-bottom: 0px;
+    font-family: "Avenir Next";
+    font-size: 3vmin;
+}
+
+#signUp {
+    text-align: center;
+    display: block;
+}
+
+#meetTheTeam {
+    padding-top: 5%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.profName {
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.profTitle {
+    font-size: 3.5vmin;
+    font-weight: bold;
+}
+
+.profParagraph {
+    font-size: 3vmin;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.submit {
+    font-size: 3vmin;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+p, h1, h3, h4, label {
+    color: black;
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+.hp-title {
+    font-size: 6vmin;
+    margin-bottom: 0;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+h4 {
+    font-weight: normal;
+    margin-top: 30px;
+    font-size: 5vmin;
+}
+
+label {
+    font-size: 25px;
+}
+
+#dollars {
+    font-size: 28px;
+    color: green;
+    font-weight: bold;
+    font-family: "Avenir Next";
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#button {
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+
+.intro-paragraph {
+    font-size: 3vmin;
+    text-align: left;
+}
+
+li {
+    font-family: "Avenir Next";
+}
+
+#meetTheAdvisorsAndMentors {
+    padding-top: 5%;
+}
+
+/*-------------------------------------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+    font-size: 1.3em;
+    color: #333;
+    font-family: 'Avenir Next';
+}
+
+section {
+    float: left;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 0 5px 0px #333;
+    /* background-image: url('background.png'); WHAT BACKGROUND HERE??? after landing?? */
+
+}
+
+/* the important styles */
+
+.arrow-wrap {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: -5em;
+    margin-left: -5em;
+    background: rgba(128, 128, 128, 0.5);
+    width: 10em;
+    height: 10em;
+    padding: 4em 2em;
+    border-radius: 50%;
+    font-size: 0.5em;
+    display: block;
+    /*  box-shadow:0px 0px 5px 0px rgba(128, 128, 128, 0.5);*/
+}
+
+.arrow {
+    float: left;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 3em 3em 0 3em;
+    border-color: rgba(128, 128, 128, 0.5) transparent transparent transparent;
+    -webkit-transform: rotate(360deg)
+}
+
+.arrow:after {
+    content: '';
+    position: absolute;
+    top: -3.2em;
+    left: -3em;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 3em 3em 0 3em;
+    border-color: rgba(255, 255, 255, 0.9) transparent transparent transparent;
+    -webkit-transform: rotate(360deg)
+}
+
+.hint {
+    position: absolute;
+    top: 0.6em;
+    width: 100%;
+    left: 0;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+}
+
+.arrow-wrap:hover .hint {
+    opacity: 1;
+}
+
+@-webkit-keyframes arrows {
+    0% {
+        top: 0;
+    }
+    10% {
+        top: 12%;
+    }
+    20% {
+        top: 0;
+    }
+    30% {
+        top: 12%;
+    }
+    40% {
+        top: -12%;
+    }
+    50% {
+        top: 12%;
+    }
+    60% {
+        top: 0;
+    }
+    70% {
+        top: 12%;
+    }
+    80% {
+        top: -12%;
+    }
+    90% {
+        top: 12%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 3s;
+}
+
+/*  this is the unimportant CSS used just to layout the content  */
+
+/*
+.content {
+  float:left;
+  /*width:70%;*/
+/*  margin:0 15%;
+  padding:2em 0;
+}*/
+
+h1 {
+    font-family: "Avenir Next";
+    font-weight: 300;
+    font-size: 1vmin;
+}
+
+h2, h3 {
+    font-family: "Avenir Next";
+    font-weight: 300;
+    font-size: 1.5em;
+    /*  margin-top:2em;*/
+}
+
+pre {
+    background: #ededed;
+    padding: 1em;
+}
+
+p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+p a {
+    color: #14b5d1;
+    text-decoration: none;
+}
+
+/*------POP UP----------*/
+body {
+    font-family: "Avenir Next", sans-serif;
+    /*background: url(4.jpg);*/
+    background-size: cover;
+}
+
+.box {
+    /*width: 20%;*/
+    /*  margin: 0 auto;*/
+    /* background: rgba(255,255,255,0.2);*/
+    /*  padding: 15px;*/
+    /* border: 2px solid #fff;*/
+    /*border-radius: 20px/50px;*/
+    /*background-clip: padding-box;*/
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    border: 2px solid green;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background: #CC0000;
+    border: 2px solid #CC0000;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: "Avenir Next";
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: orange;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+/**********************************************************/
+
+/*img {
+  display: block;
+  width: 100%;
+}*/
+
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0.4em 0;
+    cursor: pointer;
+}
+
+/*button {
+  border: 10px solid #00FFAA;
+  font-family: monospace;
+  position: absolute;
+  line-height: 60px;
+  text-align: right;
+  padding: 0 1.2em;
+  background: #444;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  height: 80px;
+  width: 80%;
+  top: 260px;
+  margin: 0;
+  left: 10%;
+}
+
+button:hover {
+  background: #00FFAA;
+}
+
+input[type=checkbox] + label:before {
+  display: inline-block;
+  position: relative;
+  background: #444;
+  margin-right: 8px;
+  content: "";
+  height: 16px;
+  width: 16px;
+  top: 1px;
+}
+
+input[type=checkbox]:checked + label:before {
+  background: #00FFAA;
+}*/
+
+#logoParallax {
+    position: center;
+    z-index: 8;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#backgroundLayer {
+    margin: 0;
+    margin-right: 500px;
+}
+
+.fill {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+    top: 5%;
+}
+
+.expand-width {
+    width: 100%;
+}
+
+.border {
+    border: 2px dashed #00FFAA;
+}
+
+.panel-title {
+    font-size: 3vmin;
+}
+
+a {
+    color: #589E07;
+}
+
+.img-circle {
+    max-width: 50vmin;
+}

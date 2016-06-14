@@ -13,3 +13,18 @@ def company(request):
 		'title': 'Company'
 	}
 	return render(request, 'main/company/index.html', context)
+
+
+def demo(request):
+	context = {
+		'title': 'Demo'
+	}
+	return render(request, 'main/demo/index.html', context)
+
+
+def tutorials(request):
+	context = {
+		'title': 'Tutorials'
+	}
+	return render(request, 'tutorials/index.html', context)
+

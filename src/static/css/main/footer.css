@@ -1,8 +1,8 @@
 /* Footer */
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
     background: #222222;
     color: #ffffff;
     padding: 10px 0 10px 0;
@@ -37,4 +37,11 @@ footer i.fa:hover {
     background: #FCAC45;
     border-color: #FCAC45;
     color: #ffffff;
+}
+
+#footer {
+    position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+    clear: both;
 }
